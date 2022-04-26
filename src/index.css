@@ -15,12 +15,28 @@ code {
 header,
 footer {
   background-color: green;
-  height: 25vh;
+  height: 15vh;
   color: white;
 }
 
 main {
-  min-height: 70vh;
+  /* min-height: 70vh; */
+  min-height: calc(100vh - 150px);
   background-color: hotpink;
   color: blue;
+}
+
+a {
+  color: orange;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+  margin: 1rem;
 }
